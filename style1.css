@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(C:/images/yoga3.jpg);
+    background-size: 130%;
+    background-position: 60% 40%;
+
+    
+    
+}
+label{
+ margin:0;
+}
+.wrap{
+    background-color: rgb(194, 192, 192);
+    margin-left: 100px;
+}

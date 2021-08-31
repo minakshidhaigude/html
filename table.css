@@ -1,0 +1,25 @@
+table{
+    border: 1px solid gray;
+    
+    width: 300px;
+    border-collapse: collapse;
+    
+    padding:10px 15px ;
+    caption-side: bottom;
+}
+th,t{
+    vertical-align: center;
+}
+td{
+    empty-cells: hide;
+}
+tr:nth-child(even){
+    background-color: green;
+    color: honeydew;
+}
+tr:hover{
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: greenyellow;
+}

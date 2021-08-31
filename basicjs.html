@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="basic.js"></script>
+    <script>
+        var a = 60;
+        var b = 50;
+        var c =a+b;
+        console.log(c);
+        document.write('addition of a and b is' + c);
+
+        function onSubmit()
+        {
+          //console.log(nm.value)  ;
+         // var name = document.getElementById('fname').value;
+        //document.write(name);
+        var name = document.getElementById('fname') .innerHTML='manu'
+        console.log(name);
+        }
+
+    </script>
+</head>
+<body>
+    <br>
+  FirstName: <input type="text " name="fn" id="fname" value="">
+
+  <button onclick="onSubmit()" >submit</button>
+</body>
+</html>

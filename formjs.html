@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\xampp\htdocs\Manu\css\bootstrap.min.css">
+</head>
+<body>
+     <script>
+         function onSubmit(){
+          var name = document.getElementById('name').value;
+          var email = document.getElementById('email').value;
+          console.log(name,email);
+          var datatext = document.getElementById('textfill').value;
+          console.log(datatext );
+         }
+     </script>
+
+    <form action="">
+        <div class="row  mt-5">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Name" id="name">
+            </div>
+            <div class="col">
+                <input type="email" class="form-control" placeholder="Email" id="email">
+            </div>
+        </div><br><br>
+        <div class="form-group">
+            <textarea class="form-control" id="textfill" placeholder="Subject"
+                rows="3"></textarea>
+        </div>
+        <button onclick="onSubmit()" class="btn btn-outline-success btn-lg ml-5">Submit</button>
+    </form>
+
+    <script src="C:\xampp\htdocs\Manu\js\jQuery.js"></script>
+    <script src="C:\xampp\htdocs\Manu\js\bootstrap.min.js"></script>
+</body>
+</html>

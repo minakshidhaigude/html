@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas  id="cv" width="200" height="150" style="border: 1px solid #008000;">
+    </canvas>
+
+    <canvas  id="cv1" width="200" height="150" style="border: 1px solid #80001c;">
+    </canvas>
+
+    <canvas  id="cv2" width="200" height="150" style="border: 1px solid #4c1a7a;">
+    </canvas>
+
+    <canvas  id="cv3" width="200" height="150" style="border: 1px solid #7e5836;">
+    </canvas>
+    
+
+<script>
+      
+        var c = document.getElementById("cv");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 150);
+        ctx.moveTo(0, 0);
+        ctx.lineTo(100, 150);
+       ctx.moveTo(0, 0);
+        ctx.lineTo(150, 200);
+        ctx.stroke();
+
+        var c = document.getElementById("cv1");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+
+        var c = document.getElementById("cv2");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("MINAKSHI", 30, 50);
+        
+        var c = document.getElementById("cv3");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("DHAIGUDE", 30, 50);
+                
+</script>
+<br><br>
+    <svg width="200" height="200">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="purple" />
+    </svg>
+
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill:rgb(110, 30, 63);stroke:rgb(83, 29, 170);stroke-width:5;fill-rule:evenodd;" />
+      </svg>
+
+      <svg width="400" height="100">
+        <rect width="400" height="100" style="fill:rgb(92, 39, 74);stroke-width:10;stroke:rgb(0,0,0)" />
+      </svg>
+        
+        
+</body>
+</html>

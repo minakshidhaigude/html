@@ -1,0 +1,34 @@
+
+p{
+    color: crimson;
+}
+.cn{
+    background-color: deeppink;
+   color: darkcyan; 
+}
+#nm{
+    color: darkred;
+}
+/**{
+    background-color: yellow;
+}*/
+a:link{
+    color: red;
+}
+body{
+    font-family: tahoma;
+    font-size: medium;
+    text-align: center;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: #FF00FF;
+}
+a:active {
+    color: #6f00ff;
+  }

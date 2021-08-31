@@ -1,0 +1,32 @@
+/*group element selector*/
+h1,h2{
+    
+    color: red;
+}
+/*id selector*/
+#nm{
+    font-size: x-large;
+    color: violet;
+}
+
+/*class selector*/
+.cnm{
+    color: blue;
+}
+p.cnm{
+    color: orangered;
+}
+*{
+    margin: 10px;;
+    padding: 20px;
+}
+/*combinator selector*/
+.cs p{
+    color: purple;
+}
+.cs > p{
+    color: red;
+}
+h6 + p{
+    color: purple;
+}
